@@ -1,0 +1,10 @@
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partaa 29f8121f15b716852a6f1b1508c6952a
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partab a8e0b0b3392a542a1ae549f82db38096
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partac 684b280a0b48596741b0c94b9291ba61
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partad 4e901486c86b155c9c19c0c1a023a2a3
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partae f74e9d95a062d69d0c954e6aa89c1868
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partaf d0806787088aeae093f6099d19e2d910
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partag b804c96ae90b6b776307a25435d689af
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partah a85abd0c92e575748fedf586bb2f3841
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_dev_mp4_partai e8d60e38a25f61986c3fcfd3ef23918e
+http://thor.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox2_test_mp4.zip b3c555e7a67eb9032640b6209b5c053f
