@@ -28,6 +28,8 @@ parser.add_argument('--download', dest='download', action='store_true', help='En
 parser.add_argument('--extract',  dest='extract',  action='store_true', help='Enable extract')
 parser.add_argument('--convert',  dest='convert',  action='store_true', help='Enable convert')
 parser.add_argument('--augment',  dest='augment',  action='store_true', help='Download and extract augmentation files')
+parser.add_argument('--test_dataset', dest='test_dataset', action='store_true', help='Download test dataset')
+
 
 args = parser.parse_args();
 
@@ -154,7 +156,10 @@ if __name__ == "__main__":
 	if not os.path.exists(args.save_path):
 		raise ValueError('Target directory does not exist.')
 
-	f = open('lists/fileparts.txt','r')
+	if args.test_dataset:
+		f = open('lists/fileparts_test_dataset.txt','r')
+	else:
+		f = open('lists/fileparts_full_dataset.txt','r')
 	fileparts = f.readlines()
 	f.close()
 
@@ -165,6 +170,7 @@ if __name__ == "__main__":
 	f = open('lists/augment.txt','r')
 	augfiles = f.readlines()
 	f.close()
+
 
 	if args.augment:
 		download(args,augfiles)
@@ -185,4 +191,3 @@ if __name__ == "__main__":
 
 	if args.convert:
 		convert(args)
-		

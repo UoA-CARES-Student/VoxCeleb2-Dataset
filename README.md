@@ -4,8 +4,11 @@ This repository goes over steps to download and extracting VoxCeleb2 dataset.
 
 
 ```
-// To download mp4 from voxceleb2 dataset.
+// To download full voxceleb2 dataset.
 python3 ./dataprep.py --save_path /path/to/dir --download --user voxceleb1912 --password 0s42xuw6
+
+// To download partial/test voxceleb2 dataset.
+python3 ./dataprep.py --save_path /path/to/dir --download --user voxceleb1912 --password 0s42xuw6 --test_dataset
 ```
 
 
